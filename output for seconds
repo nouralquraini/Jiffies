@@ -1,0 +1,29 @@
+beginning script...
+Module name is: seconds.ko
+
+        sleeping for 1 second...
+In proc_read(), seconds is: 1
+        sleeping for 2 seconds
+...
+In proc_read(), seconds is: 1
+        sleeping for 3 seconds
+...
+In proc_read(), seconds is: 1
+        sleeping for 4 seconds
+...
+In proc_read(), seconds is: 1
+
+[   82.262935] seconds: module verification failed: signature and/or required key missing - tainting kernel
+[   82.273658] /proc/seconds created
+[   82.273661] In proc_init(), Jiffies is: 4294912811 and HZ is: 250
+[   82.273663] In proc_init(), seconds is: 17179651
+[   82.273664] In proc_init(), seconds is: 17179651
+[   82.273665] In proc_init(), seconds is: 17179651
+[   82.273666] In proc_init(), seconds is: 17179651
+[   82.273667] In proc_init(), seconds is: 17179651
+[   92.350334] In jiffies/proc/read, jiffies is: 4294915329
+[   92.350341] /proc/seconds removed
+
+...end of script
+
+osc@ubuntu:~/final-src-osc10e/ch2$ ^C
