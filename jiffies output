@@ -1,0 +1,24 @@
+beginning script...
+Module name is: jiffies.ko
+
+        sleeping for 1 second...
+In jiffies/proc/read, jiffies is: 4295081188
+        sleeping for 2 seconds
+...
+In jiffies/proc/read, jiffies is: 4295081710
+        sleeping for 3 seconds
+...
+In jiffies/proc/read, jiffies is: 4295082461
+        sleeping for 4 seconds
+...
+In jiffies/proc/read, jiffies is: 4295083463
+
+[  754.741661] jiffies: module verification failed: signature and/or required key missing - tainting kernel
+[  754.748106] /proc/jiffies created
+[  754.748110] In proc_init(), Jiffies is: 4295080934 and HZ is: 250
+[  764.875328] In jiffies/proc/read, jiffies is: 4295083466
+[  764.875334] /proc/jiffies removed
+
+...end of script
+
+osc@ubuntu:~/final-src-osc10e/ch2$ 
